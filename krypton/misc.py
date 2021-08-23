@@ -7,10 +7,10 @@ HELP_TEXT = """__**ZENCİLER FEDERASYONU MÜZİK BOTU**__
 **/oynat** __youtube/saavn/deezer şarkı ismi. Örnek: /oynat youtube Gönül Davası. 
 
 **/durdur** __Müziği Durdurur.__
-**/gir** __Asistanın Sesli Sohbete Girmesini Sağlar.__
-**/çık** __Asistanın Sesli Sohbetten Çıkmasını Sağlar.__
-**/sessizeal** __Asistanı Sessize Alır.__
-**/sesiaç** __Asistanı Sessizden Çıkarır.__
+**/gir** __Botun Sesli Sohbete Girmesini Sağlar.__
+**/çık** __Botun Sesli Sohbetten Çıkmasını Sağlar.__
+**/sessizeal** __Botu Sessize Alır.__
+**/sesiaç** __Botu Sessizden Çıkarır.__
 **/sesdüzey** __<1-200> arasında yazdığın değer kadar sesi ayarlar__
 **/bitir** __Müziği Bitirir .__
 **/yapımcı** __@ex0rc1st0.__
