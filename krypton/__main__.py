@@ -78,7 +78,7 @@ async def donation(_, message):
 @app.on_message(filters.text & cmd_filter('gir'))
 async def join(_, message):
     if group_calls.is_connected:
-        await message.reply_text('Asistan Zaten Seste!')
+        await message.reply_text('Bot Zaten Seste!')
         return
     group_calls.client = app
     await group_calls.start(message.chat.id)
@@ -130,7 +130,7 @@ async def killbot(_, message):
 @app.on_message(filters.text & cmd_filter('oynat'))
 async def queues(_, message):
     if not group_calls.is_connected:
-        await message.reply_text('Asistan Sesli Sohbete Katılamadı!')
+        await message.reply_text('Bot Sesli Sohbete Katılamadı!')
         return
     usage = "**Kullanım:**\n__**/oynat YouTube Şarkı İsmi**__"
     if len(message.command) < 3:
