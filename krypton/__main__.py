@@ -59,7 +59,7 @@ async def start(_, message):
 async def helps(_, message):
     await message.reply_text(HELP_TEXT)
 
-@app.on_message(filters.text & cmd_filter('repo'))
+@app.on_message(filters.text & cmd_filter('yapımcı'))
 async def repo(_, message):
     await message.reply_text(REPO_TEXT)
 
