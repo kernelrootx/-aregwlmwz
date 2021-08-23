@@ -1,29 +1,27 @@
-HELP_TEXT = """__**I Can Play Music In The Voice Chat**__
+HELP_TEXT = """__**ZENCİLER FEDERASYONU MÜZİK BOTU**__
 
-**/start** __To Start The bot.__
-**/help** __To Show This Message.__
-**/ping** __To Show Latency Bot.__
-**/skip** __To Skip The Current Playing Music.__
-**/play** __youtube/saavn/deezer song_name__
-**/stop** __To Stop Playing Music.__
-**/join** __To Join A Voice Chat.__
-**/leave** __To Leave A Voice Chat.__
-**/mute** __To Mute A Bot.__
-**/unmute** __To Unmute A Bot.__
-**/volume** __<1-200>__
-**/kill** __To Kill A Sevice Bot.__
-**/repo** __To Source Code This Not.__
-**/donation** __To Give Me A Coffe.__"""
+**/başlat** __Bot Başlatıldı.__
+**/yardım** __Nasıl Kullanılacağını Anlatan Mesajı Gönderir.__
+**/hızölç** __Botun Güncel Hızını Gösyerir.__
+**/atla** __Sıradaki Şarkıya Atlar.__
+**/oynat** __youtube/saavn/deezer şarkı ismi. Örnek: /oynat youtube Gönül Davası. 
 
-START_TEXT = "__**Hi I'm KryPtoN Music Bot. I will sing for you on Voice Call Telegram, Hit /help for look my features.**__"
+**/durdur** __Müziği Durdurur.__
+**/gir** __Asistanın Sesli Sohbete Girmesini Sağlar.__
+**/çık** __Asistanın Sesli Sohbetten Çıkmasını Sağlar.__
+**/sessizeal** __Asistanı Sessize Alır.__
+**/sesiaç** __Asistanı Sessizden Çıkarır.__
+**/sesdüzey** __<1-200> arasında yazdığın değer kadar sesi ayarlar__
+**/bitir** __Müziği Bitirir .__
+**/yapımcı** __@ex0rc1st0.__
+**/bağış** __Bi ara İBAN atarım.__"""
 
-REPO_TEXT = """Source code this bot 🤖
-Source code: [Github](https://github.com/Kry9toN/KryPtoN-Music-Bot)
-License: [ GPL-3.0 License](https://github.com/Kry9toN/KryPtoN-Music-Bot/blob/master/LICENSE.md)"""
+START_TEXT = "__**ZENCİLER FEDERASYONU'NUN MÜZİK BOTUDUR. YAPIMCI @ex0rc1st0**__"
 
-DONATION_TEXT = """♥️Donation List♥️
-Indonesia:
-[Saweria](https://saweria.co/donate/Kry9toN)
-Internasional:
-[Paypal](https://www.paypal.me/KomodoOS)
+REPO_TEXT = """YAPIMCI @ex0rc1st0
+GRUBUMUZ: https://t.me/zenciler_federasyonu"""
+
+DONATION_TEXT = """♥️@ex0rc1st0♥️
+https://t.me/zenciler_federasyonu
+Bi ara bağış için İBAN koyarım.
 """
