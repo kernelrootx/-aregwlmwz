@@ -75,14 +75,14 @@ async def ping(_, message):
 async def donation(_, message):
     await message.reply_text(DONATION_TEXT)
 
-@app.on_message(filters.text & cmd_filter('katıl'))
+@app.on_message(filters.text & cmd_filter('gir'))
 async def join(_, message):
     if group_calls.is_connected:
-        await message.reply_text('Asistan Zaten Ekli!')
+        await message.reply_text('Asistan Zaten Seste!')
         return
     group_calls.client = app
     await group_calls.start(message.chat.id)
-    await message.reply_text('Başarıyla Katıldı!')
+    await message.reply_text('Sese Girildi!')
 
 @app.on_message(filters.text & cmd_filter('sessizeal'))
 async def mute(_, message):
@@ -110,21 +110,21 @@ async def stop(_, message):
     playing = False
     await message.reply_text('Müzik Başarıyla Durduruldu!')
 
-@app.on_message(filters.text & cmd_filter('bitir'))
+@app.on_message(filters.text & cmd_filter('çık'))
 async def leave(_, message):
     global playing
     if not group_calls.is_connected:
-        await message.reply_text('Oynatılan Bir Şey Yok!')
+        await message.reply_text('Zaten Seste Değil!')
         return
     await group_calls.stop()
     queue.clear()
     playing = False
     group_calls.input_filename = ''
-    await message.reply_text('Oynatma Bitirildi!')
+    await message.reply_text('Sesten Çıkıldı!')
 
-@app.on_message(filters.text & cmd_filter('öldür'))
+@app.on_message(filters.text & cmd_filter('bitir'))
 async def killbot(_, message):
-    await send("__**Tüm Bağlantılar Kesildi!__**")
+    await send("__**Bitirildi!__**")
     quit()
 
 @app.on_message(filters.text & cmd_filter('oynat'))
